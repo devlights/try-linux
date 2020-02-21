@@ -6,6 +6,7 @@ _make_mappings() {
     mappings=(
         ["ls_orderby_desc"]="basic/ls/ls_orderby_desc.sh"
         ["awk_01"]="basic/awk/awk01.sh"
+        ["awk_02"]="basic/awk/awk02.sh"
     )
 }
 
