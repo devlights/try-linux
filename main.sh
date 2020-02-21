@@ -5,6 +5,7 @@ declare -A mappings
 _make_mappings() {
     mappings=(
         ["ls_orderby_desc"]="basic/ls/ls_orderby_desc.sh"
+        ["awk_01"]="basic/awk/awk01.sh"
     )
 }
 
