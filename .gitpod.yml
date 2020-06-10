@@ -1,5 +1,5 @@
 tasks:
-  - command: uname -a & lsb_release -a
+  - command: uname -a ; lsb_release -a
 image:
   file: .gitpod.Dockerfile
 vscode:
