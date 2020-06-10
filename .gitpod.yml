@@ -1,8 +1,5 @@
 tasks:
-  - init: go env -w GO111MODULE=off &&
-          go get github.com/devlights/mkghurl &&
-          go env -u GO111MODULE
-    command: if [ -n "$GITHUB_TOKEN" ]; then git remote set-url origin $(mkghurl try-linux); fi && lsb_release -a
+  - command: uname -a & lsb_release -a
 image:
   file: .gitpod.Dockerfile
 vscode:
