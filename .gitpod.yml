@@ -1,8 +1,6 @@
-tasks:
-  - command: uname -a ; lsb_release -a
-image:
-  file: .gitpod.Dockerfile
+image: gitpod/workspace-full
 vscode:
   extensions:
-    - timonwong.shellcheck@0.9.0:hsU/Rd39aqPYowTqL+DbXg==
-    - mads-hartmann.bash-ide-vscode@1.4.0:/qx+rdXE/fGTGWhelNf3aQ==
+    - timonwong.shellcheck@0.10.1:J9QwQEqo5+bxqMMZDnFUNQ==
+    - mads-hartmann.bash-ide-vscode@1.11.0:VLESO/tPCjrfzzLcJy83aQ==
+    - foxundermoon.shell-format@7.0.1:dJqOSN173jVh12b+ScTqtw==
