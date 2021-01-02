@@ -10,7 +10,7 @@ mkdir -p "$basedirpath"
 printf "hello\r\nworld\n" > "$basedirpath"/helloworld1.txt
 
 # col コマンドで CR を除去
-cat "$basedirpath"/helloworld1.txt | col -b > "$basedirpath"/helloworld2.txt
+col -b < "$basedirpath"/helloworld1.txt > "$basedirpath"/helloworld2.txt
 
 # 結果確認
 echo '--------------- before ---------------'
