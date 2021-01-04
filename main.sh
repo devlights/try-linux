@@ -10,6 +10,7 @@ _make_mappings() {
         ["awk_skip_first_line"]="basic/awk/skip_first_line.sh"
         ["mkdir_multiple_dirs"]="basic/mkdir/multiple_dirs_once.sh"
         ["col_remove_cr"]="basic/col/remove_carriage_return.sh"
+        ["proc_list_proc_environ"]="basic/proc/list_proc_environ.sh"
     )
 }
 
