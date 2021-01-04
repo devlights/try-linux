@@ -37,7 +37,7 @@ app1_pid="$!"
 
 # MY_ENV という環境変数は設定していないので何も表示されない
 # /proc/pid/environ ファイルのデータは ヌル文字 で結合されていることに注意
-cat "/proc/$app1_pid/environ" | tr '\0' '\n' | grep 'MY_ENV'
+tr '\0' '\n' < "/proc/$app1_pid/environ" | grep 'MY_ENV'
 kill -SIGTERM "$app1_pid"
 
 #
@@ -49,7 +49,7 @@ app2_pid="$!"
 
 # MY_ENV という環境変数を設定しているので表示される
 # /proc/pid/environ ファイルのデータは ヌル文字 で結合されていることに注意
-cat "/proc/$app2_pid/environ" | tr '\0' '\n' | grep 'MY_ENV'
+tr '\0' '\n' < "/proc/$app2_pid/environ" | grep 'MY_ENV'
 kill -SIGTERM "$app2_pid"
 
 # プロセス終了待ち
