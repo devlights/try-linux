@@ -12,6 +12,7 @@ _make_mappings() {
         ["col_remove_cr"]="basic/col/remove_carriage_return.sh"
         ["proc_list_proc_environ"]="basic/proc/list_proc_environ.sh"
         ["convert_hex_to_bin"]="basic/convert/hex_to_bin.sh"
+        ["convert_bin_to_hex"]="basic/convert/bin_to_hex.sh"
     )
 }
 
