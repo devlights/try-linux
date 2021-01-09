@@ -11,6 +11,7 @@ _make_mappings() {
         ["mkdir_multiple_dirs"]="basic/mkdir/multiple_dirs_once.sh"
         ["col_remove_cr"]="basic/col/remove_carriage_return.sh"
         ["proc_list_proc_environ"]="basic/proc/list_proc_environ.sh"
+        ["convert_hex_to_bin"]="basic/convert/hex_to_bin.sh"
     )
 }
 
