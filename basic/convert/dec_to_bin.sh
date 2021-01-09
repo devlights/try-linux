@@ -10,10 +10,10 @@
 target=11111111
 echo "TARGET: ${target}"
 
-# bc コマンドを使って 2進数 を 16進数 に変換
+# bc コマンドを使って 2進数 を 10進数 に変換
 echo '--------- with bc command ---------'
 echo "obase=10; ibase=2; ${target}" | bc
 
-# bash の算術機能を使って 2進数 を 16進数 に変換
+# bash の算術機能を使って 2進数 を 10進数 に変換
 echo '--------- with bash arithmetic expasion ---------'
 printf "%d\n" "$((2#${target}))"
