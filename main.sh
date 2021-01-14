@@ -5,16 +5,23 @@ declare -A mappings
 _make_mappings() {
     mappings=(
         ["ls_orderby_desc"]="basic/ls/ls_orderby_desc.sh"
+        
         ["awk_01"]="basic/awk/awk01.sh"
         ["awk_02"]="basic/awk/awk02.sh"
         ["awk_skip_first_line"]="basic/awk/skip_first_line.sh"
+        
         ["mkdir_multiple_dirs"]="basic/mkdir/multiple_dirs_once.sh"
+        
         ["col_remove_cr"]="basic/col/remove_carriage_return.sh"
+        
         ["proc_list_proc_environ"]="basic/proc/list_proc_environ.sh"
+
         ["convert_hex_to_bin"]="basic/convert/hex_to_bin.sh"
         ["convert_bin_to_hex"]="basic/convert/bin_to_hex.sh"
         ["convert_bin_to_dec"]="basic/convert/bin_to_dec.sh"
         ["convert_hex_to_dec"]="basic/convert/hex_to_dec.sh"
+
+        ["bash_heredoc"]="basic/bashtips/heredoc/heredoc.sh"
     )
 }
 
