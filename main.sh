@@ -24,6 +24,7 @@ _make_mappings() {
         ["bash_heredoc"]="basic/bashtips/heredoc/heredoc.sh"
 
         ["zerobinary_head"]="basic/zerobinary/zerobinary_head.sh"
+        ["zerobinary_dd"]="basic/zerobinary/zerobinary_dd.sh"
     )
 }
 
