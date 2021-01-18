@@ -25,6 +25,8 @@ _make_mappings() {
 
         ["zerobinary_head"]="basic/zerobinary/zerobinary_head.sh"
         ["zerobinary_dd"]="basic/zerobinary/zerobinary_dd.sh"
+
+        ["find_regex"]="basic/find/find_regex.sh"
     )
 }
 
@@ -105,9 +107,11 @@ _main() {
         target="${candidates[0]}"
         script_path="${mappings[${target}]}"
 
+        echo ''
         echo "[INPUT ] ${name}"
         echo "[TARGET] ${target}"
         echo "[SCRIPT] ${script_path}"
+        echo ''
 
         echo "===== START [${script_path}] ====="
         (
