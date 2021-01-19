@@ -82,7 +82,7 @@ _main() {
         do 
             if [[ "$key" == *"$name"* ]]; then
                 candidates=("${candidates[@]}" "$key")
-                let count++
+                (( count++ ))
             fi
         done
 
