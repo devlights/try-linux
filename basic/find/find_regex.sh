@@ -60,6 +60,11 @@ find "${basedirpath}" -type f -regextype posix-egrep -regex ".*findregex_10+\.tx
 ## find と xargs の連携
 #
 echo '[find-xargs] -----------------------------------------------'
-find "${basedirpath}" -type f -regextype posix-egrep -regex ".*findregex_0[0-9]7\.txt" -print0 | xargs -0 -I{} rm -v -f {}
+find "${basedirpath}" \
+        -type f \
+        -regextype posix-egrep \
+        -regex ".*findregex_0[0-9]7\.txt" \
+        -print0 \
+    | xargs -0 -I{} rm -v -f {}
 
 echo $(ls -1 "${basedirpath}" | wc -l) 'files'
