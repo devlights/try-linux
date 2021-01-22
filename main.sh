@@ -22,6 +22,7 @@ _make_mappings() {
         ["convert_hex_to_dec"]="basic/convert/hex_to_dec.sh"
 
         ["bash_heredoc"]="basic/bashtips/heredoc/heredoc.sh"
+        ["bash_arithmetic_expansion"]="basic/bashtips/arithmetic_expansion/arithmetic_expansion.sh"
 
         ["zerobinary_head"]="basic/zerobinary/zerobinary_head.sh"
         ["zerobinary_dd"]="basic/zerobinary/zerobinary_dd.sh"
