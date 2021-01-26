@@ -12,7 +12,7 @@ _make_mappings() {
         
         ["mkdir_multiple_dirs"]="basic/mkdir/multiple_dirs_once.sh"
         
-        ["col_remove_cr"]="basic/col/remove_carriage_return.sh"
+        ["newline_remove_cr_with_col"]="basic/newline/remove_carriage_return_with_col.sh"
         
         ["proc_list_proc_environ"]="basic/proc/list_proc_environ.sh"
 
