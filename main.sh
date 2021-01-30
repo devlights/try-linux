@@ -28,6 +28,8 @@ _make_mappings() {
         ["zerobinary_dd"]="basic/zerobinary/zerobinary_dd.sh"
 
         ["find_regex"]="basic/find/find_regex.sh"
+
+        ["random_using_shuf"]="basic/random/using_shuf.sh"
     )
 }
 
