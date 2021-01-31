@@ -61,7 +61,9 @@ echo "Split: ${_count} files"
 #   - -t : --field-separator (指定した文字をセパレータとして利用)
 #   - -k : --key (ソート対象とするカラム位置)
 #
-ls -l "${basedirpath}" | awk '{if (NR>1) printf "%6d %s\n",$5,$9}' | sort -n -t . -k 3
+ls -l "${basedirpath}" \
+    | awk '{if (NR>1) printf "%6d %s\n",$5,$9}' \
+    | sort -n -t . -k 3
 
 echo '----------------------------------------------------'
 
