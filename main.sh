@@ -30,6 +30,8 @@ _make_mappings() {
         ["find_regex"]="basic/find/find_regex.sh"
 
         ["random_using_shuf"]="basic/random/using_shuf.sh"
+
+        ["split_using_dd"]="basic/split/using_dd.sh"
     )
 }
 
