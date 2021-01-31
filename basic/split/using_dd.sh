@@ -76,4 +76,4 @@ echo '----------------------------------------------------'
 
 ## 復元確認
 #
-diff -s "${basedirpath}/zero.bin" "${basedirpath}/zero.bin.restore"
+diff -s "${basedirpath}"/{zero.bin,zero.bin.restore}
