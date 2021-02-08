@@ -34,6 +34,8 @@ _make_mappings() {
         ["split_using_dd"]="basic/split/using_dd.sh"
 
         ["sort_numeric_sort"]="basic/sort/numeric_sort.sh"
+
+        ["kernel_version"]="basic/kernelversion/kernelversion.sh"
     )
 }
 
