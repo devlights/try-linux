@@ -24,6 +24,8 @@ _make_mappings() {
         ["bash_heredoc"]="basic/bashtips/heredoc/heredoc.sh"
         ["bash_arithmetic_expansion"]="basic/bashtips/arithmetic_expansion/arithmetic_expansion.sh"
 
+        ["grep_remove_emptyline"]="basic/grep/grep_remove_emptyline.sh"
+
         ["zerobinary_head"]="basic/zerobinary/zerobinary_head.sh"
         ["zerobinary_dd"]="basic/zerobinary/zerobinary_dd.sh"
 
