@@ -8,7 +8,7 @@
 #
 _exec() {
     # 作業用ディレクトリ作成
-    basedirpath=/tmp/try-linux/cat/with_number_all_lines
+    basedirpath=/tmp/try-linux/cat/with_number
     rm -rf "${basedirpath}"
     mkdir -p "${basedirpath}"
 

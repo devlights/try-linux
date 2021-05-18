@@ -40,6 +40,7 @@ _make_mappings() {
         ["kernel_version"]="basic/kernelversion/kernelversion.sh"
 
         ["cat_with_number"]="basic/cat/with_number.sh"
+        ["cat_display_tabchar"]="basic/cat/display_tabchar.sh"
     )
 }
 
