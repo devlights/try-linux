@@ -38,6 +38,11 @@ _make_mappings() {
         ["sort_numeric_sort"]="basic/sort/numeric_sort.sh"
 
         ["kernel_version"]="basic/kernelversion/kernelversion.sh"
+
+        ["cat_with_number"]="basic/cat/with_number.sh"
+        ["cat_display_tabchar"]="basic/cat/display_tabchar.sh"
+        ["cat_display_eol"]="basic/cat/display_eol.sh"
+        ["cat_omit_empty_lines"]="basic/cat/omit_empty_lines.sh"
     )
 }
 
