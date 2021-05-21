@@ -57,6 +57,9 @@ _make_mappings() {
 #   - https://stackoverflow.com/questions/229551/how-to-check-if-a-string-contains-a-substring-in-bash
 #   - https://qiita.com/b4b4r07/items/cb02bbfd6df58df06ea8
 #   - https://www.atmarkit.co.jp/ait/articles/1905/30/news017.html
+#   - https://qiita.com/pu_ri/items/f1a2e098fb8ae8e978d4
+#   - https://orebibou.com/ja/home/201411/20141117_001/
+#   - https://tldp.org/LDP/abs/html/localvar.html
 _main() {
     onetime=false
     while getopts o option
