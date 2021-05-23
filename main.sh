@@ -3,47 +3,9 @@
 declare -A mappings
 
 _make_mappings() {
-    mappings=(
-        ["ls_orderby_desc"]="basic/ls/ls_orderby_desc.sh"
-        
-        ["awk_01"]="basic/awk/awk01.sh"
-        ["awk_02"]="basic/awk/awk02.sh"
-        ["awk_skip_first_line"]="basic/awk/skip_first_line.sh"
-        
-        ["mkdir_multiple_dirs"]="basic/mkdir/multiple_dirs_once.sh"
-        
-        ["newline_remove_cr_with_col"]="basic/newline/remove_carriage_return_with_col.sh"
-        
-        ["proc_list_proc_environ"]="basic/proc/list_proc_environ.sh"
-
-        ["convert_hex_to_bin"]="basic/convert/hex_to_bin.sh"
-        ["convert_bin_to_hex"]="basic/convert/bin_to_hex.sh"
-        ["convert_bin_to_dec"]="basic/convert/bin_to_dec.sh"
-        ["convert_hex_to_dec"]="basic/convert/hex_to_dec.sh"
-
-        ["bash_heredoc"]="basic/bashtips/heredoc/heredoc.sh"
-        ["bash_arithmetic_expansion"]="basic/bashtips/arithmetic_expansion/arithmetic_expansion.sh"
-
-        ["grep_remove_emptyline"]="basic/grep/grep_remove_emptyline.sh"
-
-        ["zerobinary_head"]="basic/zerobinary/zerobinary_head.sh"
-        ["zerobinary_dd"]="basic/zerobinary/zerobinary_dd.sh"
-
-        ["find_regex"]="basic/find/find_regex.sh"
-
-        ["random_using_shuf"]="basic/random/using_shuf.sh"
-
-        ["split_using_dd"]="basic/split/using_dd.sh"
-
-        ["sort_numeric_sort"]="basic/sort/numeric_sort.sh"
-
-        ["kernel_version"]="basic/kernelversion/kernelversion.sh"
-
-        ["cat_with_number"]="basic/cat/with_number.sh"
-        ["cat_display_tabchar"]="basic/cat/display_tabchar.sh"
-        ["cat_display_eol"]="basic/cat/display_eol.sh"
-        ["cat_omit_empty_lines"]="basic/cat/omit_empty_lines.sh"
-    )
+    # shellcheck source=/dev/null
+    . basic/examples.sh
+    regist_basic mappings
 }
 
 # main function
