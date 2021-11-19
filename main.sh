@@ -100,8 +100,7 @@ _main() {
         )
         echo "===== END   [${script_path}] ====="
 
-        if [ "$onetime" ]
-        then
+        if [ "$onetime" ]; then
             break
         fi
     done
