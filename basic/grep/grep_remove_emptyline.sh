@@ -13,7 +13,7 @@ mkdir -p "${basedirpath}"
 ## テスト用のファイルを生成
 #
 (
-    cd "${basedirpath}"
+    cd "${basedirpath}" || exit
     cat <<EOF >test.txt
 hello
 
