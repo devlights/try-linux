@@ -12,3 +12,9 @@ mkdir -p "${basedirpath}"
 echo '********* Hello World *********' | grep 'He...'
 echo '-------------------------------'
 echo '********* Hello World *********' | grep -o 'He...'
+
+echo 'golang java csharp rust javascript python' | grep -E '[^ ]{6,}'
+echo '-------------------------------'
+echo 'golang java csharp rust javascript python' | grep -o -E '[^ ]{6,}'
+echo '-------------------------------'
+echo 'golang java csharp rust javascript python' | grep -o -E '[^ ]{6,}' | sort | tr '[:lower:]' '[:upper:]'
